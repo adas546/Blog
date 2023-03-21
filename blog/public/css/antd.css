@@ -1,0 +1,9 @@
+/* 给antd组件加的css */
+.ant_menu{
+    line-height: 2.6rem;
+}
+.ant_menu_item{
+    font-size:1rem !important;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}

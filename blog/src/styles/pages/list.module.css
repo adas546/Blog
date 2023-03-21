@@ -1,0 +1,68 @@
+.icon{
+    font-weight: bold;
+    /* em是相对父节点 ,rem是根节点*/
+    font-size:.1em;
+}
+
+.list_title{
+    font-size:1.4rem;
+    /* 不选蓝色，还可以有一个变色的效果 */
+    color: rgb(22,119,255); 
+    padding: 0 0.5rem;
+}
+.list_contxt{
+    color:#777;
+    padding:.5rem;
+}
+
+/* 过度动画 */
+.cssnice{
+    animation: cssnice 1s both;
+  }
+  @keyframes cssnice{
+    0%{
+      opacity: 0;
+      transform: scale3d(0.3,0.3,0.3);
+    }
+    50%{
+      opacity: 1;
+    }
+  }
+  /* 过度动画 */
+  .cssnice1{
+    animation: cssnice1 1s both;
+  }
+  @keyframes cssnice1{
+    0%{
+      opacity: 0;
+      transform: translate3d(-100%,0,0);
+    }
+    50%{
+      opacity: 1;
+      transform: translate3d(3%,0,0);
+    }
+    65%{
+      opacity: 1;
+      transform: translate3d(-2.5%,0,0);
+    }
+    80%{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+    90%{
+      opacity: 1;
+      transform: translate3d(-1%,0,0);
+    }
+    100%{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+  }
+  .cssnicehover{
+    transition: all linear .5s;
+  }
+  .cssnicehover:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translate3d(0,-2px,0);
+    background-color: rgba(255,255,255,.5);
+  }

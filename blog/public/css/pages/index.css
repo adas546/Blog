@@ -1,0 +1,92 @@
+/* 这里按照自己想法写吧，全局的样式放在public中 */
+/* 直接在页面上修改的css，直接放到全局中，技术胖那种应该也是这样 */
+/* 技术胖那种感觉没有规范，没有区分全局css和区域css */
+body{
+    background-color: #f6f6f6;  
+  }
+  /* 内容区域 */
+  .comm-box{
+    background-color: #FFF;
+    margin-left: .5rem;
+    padding:.3rem;
+    border-radius: .3rem;
+    border:1px solid #eee;
+  }
+  .comm-left{
+    background-color: #FFF;
+    padding:.3rem;
+    border-radius: .3rem;
+    border-bottom:1px solid #eee;
+  }
+  .comm-right{
+    background-color: #FFF;
+    margin-left: .5rem;
+    padding:.3rem;
+    border-radius: .3rem;
+    border-bottom:1px solid #eee;
+  
+  }
+  .comm-main{
+    margin-top: .5rem;
+  }
+  .header-name{
+    font-size:1.1rem;
+    padding-left: .2rem;
+  }
+  .list_title{
+    font-size:1.5rem;
+    color: #1e90ff;
+    /* padding: 0 0; */
+}
+.list_context{
+    color:#777;
+    padding:.5rem;
+}
+.list_icon{
+    padding:.5rem 0;
+    color:#AAA;
+}
+.list_icon span{
+    display: inline-block;
+    /* 先上下，再左右 */
+    padding: 0 0px;
+}
+pre{
+  display: block;
+  background-color:#f3f3f3;
+   padding: .5rem !important;
+   overflow-y: auto;
+   font-weight: 300;
+   font-family: Menlo, monospace;
+   border-radius: .3rem;
+}
+pre{
+  background-color: #283646 !important;
+}
+pre >code{
+  border:0px !important;
+  background-color: #283646 !important;
+  color:#FFF;
+}
+code {
+  display: inline-block ;
+  background-color:#f3f3f3;
+  border:1px solid #fdb9cc;
+  border-radius:3px;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:#4f4f4f;
+  margin: 0px 3px;
+}
+.list-context img{
+  width:100% ;
+  border-radius:5px;
+  border:1px solid #f0f0f0;
+  max-width:1000px !important;
+  display: block;
+  margin:8px  auto ;
+}
+iframe{
+  height: 34rem;
+}

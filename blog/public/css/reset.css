@@ -1,0 +1,41 @@
+body,html{
+    /* 锚点过渡效果 */
+    scroll-behavior: smooth;
+  }
+  .detailed-nav{
+    margin-top: .5rem;
+}
+.bkg_image{
+    /* background-image:url(../background.jpg); */
+    /* 默认这里要写100%的，不然就会repeat或者不能全部覆盖，很丑的 */
+    /* background-size: 100% 100% ; */
+    /* opacity: 0.5; */
+    /* width: 100%;
+    height: 100%; */
+    /* 一旦给元素加上absolute或float就相当于给元素加上了display:block; */
+    position: absolute;
+    top:0;left: 0;right: 0; bottom: 0;
+    height: 100%;
+    background-image: url(../background.jpg);
+    /* background-size: 100% 100%;
+     */
+     background-size:cover;
+    opacity: 0.5
+}
+.ant-anchor-wrapper::-webkit-scrollbar {display:none} /* 隐藏滚动条 */
+
+.ant-anchor-wrapper{
+    max-height: 87vh !important;
+}
+
+.ant-back-top{ /* 解决置顶覆盖问题 */
+    z-index: 50;
+}
+
+.nomore{
+    text-align: center;
+ margin-top: 1rem;
+ font-size: .7rem;
+ color: #888; 
+ margin-bottom: 1rem;
+ }

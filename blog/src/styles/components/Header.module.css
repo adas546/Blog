@@ -1,0 +1,36 @@
+.header{
+    background-color:rgb(40,54,70);
+    padding:.4rem;
+    /* 根节点（html）的font-size决定了rem的尺寸，也就是说它是一个相对单位，相对于(html)。 */
+    overflow: hidden;
+    height: 2.3rem;
+    border-bottom: 1px solid #ccc;
+    transition: all ease-out .3s;
+
+    /* 解决ant固钉报错 */
+    z-index: 10 !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header_logo {
+    display: inline-block;
+    cursor: pointer;
+    color:#fff;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 2.5rem;
+background-size: 200% 100%;
+animation: masked-animation 2s infinite linear;
+}
+
+.header_txt {
+    color:#999;
+    /* rem:相对于父元素 */
+    font-size:.6rem;
+    /* 希望文字在一行 */
+    display: inline-block;
+    /* 左对齐 */
+    padding-left:.3rem;
+}
